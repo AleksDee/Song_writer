@@ -1,12 +1,13 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
+import SongGenerator from './components/SongGenerator'
 
 function App() {
   return (
     <div className="layout">
       <Header />
       <main className="main">
-        <p>Welcome to Writer — your rap song generator.</p>
+        <SongGenerator />
       </main>
       <Footer />
     </div>
